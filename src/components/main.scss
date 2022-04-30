@@ -1,0 +1,14 @@
+.main__mint {
+  width: 20%;
+  top: 18%;
+  right: 12%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &:active {
+    opacity: .8;
+  }
+}

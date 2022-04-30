@@ -1,0 +1,251 @@
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 2,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+);
+
+$h1-font-size: 3.75rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.25rem;
+$h4-font-size: 1.5rem;
+
+// Configuration
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+@import "../node_modules/bootstrap/scss/_mixins.scss";
+@import "../node_modules/bootstrap/scss/_utilities.scss";
+
+// Layout
+@import "../node_modules/bootstrap/scss/_root";
+@import "../node_modules/bootstrap/scss/_reboot";
+@import "../node_modules/bootstrap/scss/_containers";
+@import "../node_modules/bootstrap/scss/_grid";
+
+// Helpers
+@import "../node_modules/bootstrap/scss/_helpers.scss";
+
+// Utilities
+@import "../node_modules/bootstrap/scss/utilities/_api.scss";
+
+
+$main-font-color: #737373;
+$general-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+html, body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/Montserrat-Regular.ttf");
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main__head-img {
+  width: 60%;
+}
+
+.main__hands-glasses-img {
+  top: 28%;
+}
+
+.main__yellowboard {
+  z-index: -1;
+}
+
+.main__yellowboard-content {
+  padding: 9% 15%;
+
+  h1 {
+    font-size: 110px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .main__yellowboard-content-count {
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  @include media-breakpoint-down(xl) {
+    h1 {
+      font-size: 60px;
+    }
+  
+    p {
+      font-size: 30px;
+    }
+
+    .main__yellowboard-content-count {
+      font-size: 40px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    h1 {
+      font-size: 35px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+
+    .main__yellowboard-content-count {
+      font-size: 25px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+
+    .main__yellowboard-content-count {
+      font-size: 22px;
+    }
+  }
+
+
+  @include media-breakpoint-down(sm) {
+    h1 {
+      font-size: 22px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    .main__yellowboard-content-count {
+      font-size: 22px;
+    }
+  }
+  
+}
+
+.kooks-all {
+  font-size: 123px;
+
+  @include media-breakpoint-down(xxl) {
+    font-size: 106px;
+  }
+
+  @include media-breakpoint-down(xl) {
+    font-size: 89px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    font-size: 65px;
+  }
+
+  @include media-breakpoint-down(md) {
+    font-size: 48px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 7.5vw;
+  }
+}
+
+.distribution__chart-wrapper {
+  width: 80%;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}
+
+.distribution__chart {
+  width: 100%;
+
+  @include media-breakpoint-down(md) {
+    width: 210%;
+  }
+}
+
+.distrubution__desc {
+  right: 12%;
+  top: 30%;
+
+  @include media-breakpoint-down(xxl) {
+    
+  }
+
+  @include media-breakpoint-down(xl) {
+    right: 11%;
+    top: 30%;
+  }
+
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
+
+  @include media-breakpoint-down(md) {
+    right: 9%;
+    top: 30%;
+  }
+
+  @include media-breakpoint-down(sm) {
+    
+  }
+}
+
+.distrubution__line {
+  margin-bottom: 16%;
+
+  @include media-breakpoint-down(xxl) {
+    font-size: 14px;
+    margin-bottom: 16%;
+  }
+
+  @include media-breakpoint-down(xl) {
+    font-size: 13px;
+    margin-bottom: 13%;
+  }
+
+  @include media-breakpoint-down(lg) {
+    font-size: 11px;
+    margin-bottom: 9%;
+  }
+
+  @include media-breakpoint-down(md) {
+    font-size: 11px;
+
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 10px;
+  }
+}
