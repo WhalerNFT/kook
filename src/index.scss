@@ -183,7 +183,7 @@ code {
   width: 80%;
 
   @include media-breakpoint-down(sm) {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -209,7 +209,8 @@ code {
   }
 
   @include media-breakpoint-down(lg) {
-    display: none;
+    right: 10%;
+    top: 30%;
   }
 
   @include media-breakpoint-down(md) {
@@ -241,11 +242,136 @@ code {
   }
 
   @include media-breakpoint-down(md) {
-    font-size: 11px;
+    font-size: 14px;
 
   }
 
   @include media-breakpoint-down(sm) {
-    font-size: 10px;
+    font-size: 14px;
+  }
+}
+
+.distrubution__perc5 {
+  top: 18%;
+  left: 23%;
+}
+
+.distrubution__perc60 {
+  top: 48%;
+  left: 10%;
+}
+
+.distrubution__perc35 {
+  top: 43%;
+  left: 28%;
+}
+
+@include media-breakpoint-down(md) {
+  .distrubution__perc5 {
+    top: 19%;
+    left: 48%;
+  }
+  
+  .distrubution__perc60 {
+    top: 49%;
+    left: 22%;
+  }
+  
+  .distrubution__perc35 {
+    top: 43%;
+    left: 69%;
+  }
+}
+
+.distrubution__blue-line {
+  img {
+    width: 200px;
+    top: -97px;
+    right: -62px;
+  }
+}
+
+.distrubution__yellow-line {
+  bottom: -78px;
+    right: 31px;
+
+  img {
+    width: 300px;
+    bottom: -20px;
+    right: -62px;
+  }
+}
+
+.distrubution__red-line {
+  top: -52px;
+    left: 179px;
+
+  img {
+    width: 150px;
+    top: 12px;
+    right: -21px;
+  }
+}
+
+.team__glasses-bg {
+  width: 100%;
+}
+
+.team__image-mobile {
+  top: 14%;
+  left: 7%;
+  z-index: -1;
+  width: 300px;
+
+  @include media-breakpoint-down(lg) {
+    width: 220px;
+  }
+
+  @include media-breakpoint-down(md) {
+    width: 164px;
+
+  }
+
+  @include media-breakpoint-down(sm) {
+    top: 15%;
+    left: 7%;
+    width: 30vw;
+  }
+}
+
+.team__member-info {
+  top: 13%;
+  right: 8%;
+  width: 300px;
+
+  @include media-breakpoint-down(lg) {
+    top: 38%;
+    width: 210px;
+  }
+
+  @include media-breakpoint-down(md) {
+    top: 30%;
+    width: 160px;
+
+  }
+
+  @include media-breakpoint-down(sm) {
+    top: 26%;
+    width: 28vw;
+  }
+}
+
+.team__image-mobile-reserve {
+  .team__image-mobile {
+    left: unset;
+    right: 7%;
+  
+    @include media-breakpoint-down(sm) {
+      right: 7%;
+    }
+  }
+
+  .team__member-info {
+    left: 8%;
   }
 }
