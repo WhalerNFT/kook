@@ -9,7 +9,7 @@ const Roadmap = () => {
           <h1 className="my-7 text-center">Roadmap</h1>
         </div>
       </div>
-      <div className="row">
+      <div className="row d-none d-lg-block">
         <div className="col">
           <div className="roadmap__container position-relative  ">
             <div className="roadmap__text-container d-flex">
@@ -61,6 +61,23 @@ const Roadmap = () => {
 
             <img src="/roll.png" className="roadmap__roll top-0 w-100 position-absolute" alt="roll" />
             <img src="/black-line.png" className="roadmap__line position-absolute" alt="roll" />
+          </div>
+        </div>
+      </div>
+      <div className="row d-lg-none">
+        <div className="col position-relative">
+          <img className="roadmap__mobile-bg" src="/mobile-roll.jpg" alt="" />
+          <div className="roadmap__chapter roadmap__c1 position-absolute">
+            123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word
+          </div>
+          <div className="roadmap__chapter roadmap__c2 position-absolute">
+            1234 123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123
+          </div>
+          <div className="roadmap__chapter roadmap__c3 position-absolute">
+            123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word
+          </div>
+          <div className="roadmap__chapter roadmap__c4 position-absolute">
+            1234 123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123
           </div>
         </div>
       </div>
