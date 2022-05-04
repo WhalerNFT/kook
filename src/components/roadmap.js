@@ -20,7 +20,7 @@ const Roadmap = () => {
                   </p>
                 </div>
                 <div>
-                  <img className="roadmap__glasses-small" src="/glasses-small.png" alt="small glasses" />
+                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
                 </div>
                 <p className="mt-2">Chapter 1</p>
               </div>
@@ -31,7 +31,7 @@ const Roadmap = () => {
                   </p>
                 </div>
                 <div>
-                  <img className="roadmap__glasses-small" src="/glasses-small.png" alt="small glasses" />
+                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
                 </div>
                 <p className="mt-2">Chapter 2</p>
               </div>
@@ -42,7 +42,7 @@ const Roadmap = () => {
                   </p>
                 </div>
                 <div>
-                  <img className="roadmap__glasses-small" src="/glasses-small.png" alt="small glasses" />
+                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
                 </div>
                 <p className="mt-2">Chapter 3</p>
               </div>
@@ -53,20 +53,20 @@ const Roadmap = () => {
                   </p>
                 </div>
                 <div>
-                  <img className="roadmap__glasses-small" src="/glasses-small.png" alt="small glasses" />
+                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
                 </div>
                 <p className="mt-2">Chapter 4</p>
               </div>
             </div>
 
-            <img src="/roll.png" className="roadmap__roll top-0 w-100 position-absolute" alt="roll" />
-            <img src="/black-line.png" className="roadmap__line position-absolute" alt="roll" />
+            <img src="roll.png" className="roadmap__roll top-0 w-100 position-absolute" alt="roll" />
+            <img src="black-line.png" className="roadmap__line position-absolute" alt="roll" />
           </div>
         </div>
       </div>
       <div className="row d-lg-none">
         <div className="col position-relative">
-          <img className="roadmap__mobile-bg" src="/mobile-roll.jpg" alt="" />
+          <img className="roadmap__mobile-bg" src="mobile-roll.jpg" alt="" />
           <div className="roadmap__chapter roadmap__c1 position-absolute">
             123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word123 word
           </div>

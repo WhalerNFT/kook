@@ -44,7 +44,7 @@ const Member = ({ name, role, image }) => {
 const MemberMobile = ({ name, role, image, isReverse }) => {
   return (
     <div className={`position-relative mt-5 ${isReverse ? 'team__image-mobile-reserve' : ''}`}>
-      <img className="team__glasses-bg" src="/member-glasses.png" alt="member glasses" />
+      <img className="team__glasses-bg" src="member-glasses.png" alt="member glasses" />
       <img className={'team__image-mobile position-absolute mb-3'} src={image} alt={name} />
       <div className="team__member-info position-absolute text-center">
         <h4>{name}</h4>
@@ -66,7 +66,7 @@ const Team = () => {
                 <Member key={props.image} {...props} />
               ))}
             </div>
-            <img className="team__bus top-0 position-absolute" src="/bus.png" alt="" />
+            <img className="team__bus top-0 position-absolute" src="bus.png" alt="" />
           </div>
         </div>
       </div>

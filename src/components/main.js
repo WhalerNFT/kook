@@ -7,8 +7,8 @@ const Main = () => {
       <div className="row">
         <div className="col">
           <div className="main__head d-flex justify-content-center position-relative">
-            <img className="main__head-img" src="/head.png" alt="Head" />
-            <img className="main__hands-glasses-img position-absolute w-100" src="/hands-glasses.png" alt="Head" />
+            <img className="main__head-img" src="head.png" alt="Head" />
+            <img className="main__hands-glasses-img position-absolute w-100" src="hands-glasses.png" alt="Head" />
           </div>
           <div className="position-relative">
             <div className="main__yellowboard-content">
@@ -21,12 +21,8 @@ const Main = () => {
                 Look for fellows <br /> to make a unique metaverse
               </p>
             </div>
-            <img
-              className="main__yellowboard top-0 w-100 position-absolute"
-              src="/yellowboard.png"
-              alt="Yellow Board"
-            />
-            <img className="main__mint position-absolute" src="/mint-button.png" alt="Mint button" />
+            <img className="main__yellowboard top-0 w-100 position-absolute" src="yellowboard.png" alt="Yellow Board" />
+            <img className="main__mint position-absolute" src="mint-button.png" alt="Mint button" />
           </div>
         </div>
       </div>

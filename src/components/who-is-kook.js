@@ -27,16 +27,16 @@ const WhoIsKook = () => {
           <div className="who__slides position-relative mb-8">
             <Slider {...slideSettings}>
               <div className="who__slides-item">
-                <img className="who__slides-item-img" src="/slides1.png" alt="1" />
+                <img className="who__slides-item-img" src="slides1.png" alt="1" />
               </div>
               <div className="who__slides-item">
-                <img className="who__slides-item-img" src="/slides2.png" alt="2" />
+                <img className="who__slides-item-img" src="slides2.png" alt="2" />
               </div>
               <div className="who__slides-item">
-                <img className="who__slides-item-img" src="/slides3.png" alt="3" />
+                <img className="who__slides-item-img" src="slides3.png" alt="3" />
               </div>
               <div className="who__slides-item">
-                <img className="who__slides-item-img" src="/slides4.png" alt="4" />
+                <img className="who__slides-item-img" src="slides4.png" alt="4" />
               </div>
             </Slider>
             <div className="who__slides who__slides-bg mt-5 position-absolute"></div>
@@ -52,7 +52,7 @@ const WhoIsKook = () => {
       <div className="row">
         <div className="col-12 col-md-6 order-md-2">
           <div className="who__img-container mt-4 d-flex justify-content-center">
-            <img className="who__img" src="/who.png" alt="Who" />
+            <img className="who__img" src="who.png" alt="Who" />
           </div>
         </div>
         <div className="col-12 col-md-6 order-md-1">
@@ -66,33 +66,33 @@ const WhoIsKook = () => {
       </div>
       <div className="kooks-container d-flex justify-content-between mt-8">
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook1.png" alt="kook1" />
+          <img className="kook-img" src="kook1.png" alt="kook1" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook2.png" alt="kook2" />
+          <img className="kook-img" src="kook2.png" alt="kook2" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook3.png" alt="kook3" />
+          <img className="kook-img" src="kook3.png" alt="kook3" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook4.png" alt="kook4" />
+          <img className="kook-img" src="kook4.png" alt="kook4" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook5.png" alt="kook5" />
+          <img className="kook-img" src="kook5.png" alt="kook5" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook6.png" alt="kook6" />
+          <img className="kook-img" src="kook6.png" alt="kook6" />
         </div>
         <div className="kook-img-container">
-          <img className="kook-img" src="/kook7.png" alt="kook7" />
+          <img className="kook-img" src="kook7.png" alt="kook7" />
         </div>
       </div>
       <div>
-        <img className="kook-line" src="/line.png" alt="line" />
+        <img className="kook-line" src="line.png" alt="line" />
       </div>
       <h1 className="kooks-all">WE ARE ALL KOOKS!</h1>
       <div>
-        <img className="kook-line" src="/line.png" alt="line" />
+        <img className="kook-line" src="line.png" alt="line" />
       </div>
     </div>
   );
