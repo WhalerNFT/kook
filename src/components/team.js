@@ -5,29 +5,29 @@ const members = [
   {
     name: 'BigYear (Kook)',
     role: 'Artist',
-    image: '/member1.png',
+    image: 'member1.png',
   },
   {
     name: 'Eric',
     role: 'Strategy & Operation',
-    image: '/member2.png',
+    image: 'member2.png',
     isReverse: true,
   },
   {
     name: 'Jamie',
     role: 'Marketing & Product',
-    image: '/member3.png',
+    image: 'member3.png',
   },
   {
     name: 'Annie',
     role: 'Community & Social media',
-    image: '/member4.png',
+    image: 'member4.png',
     isReverse: true,
   },
   {
     name: 'Master Cui',
     role: 'Web3 & Smart Contract',
-    image: '/member5.png',
+    image: 'member5.png',
   },
 ];
 
