@@ -1,7 +1,10 @@
 import React from 'react';
+import { useI18n } from 'react-simple-i18n';
 import './footer.scss';
 
 const Footer = () => {
+  const { t } = useI18n();
+
   return (
     <>
       <div className="row">

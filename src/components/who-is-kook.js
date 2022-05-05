@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { useI18n } from 'react-simple-i18n';
 import './who-is-kook.scss';
 
 const slideSettings = {
@@ -12,12 +13,14 @@ const slideSettings = {
 };
 
 const WhoIsKook = () => {
+  const { t } = useI18n();
+
   return (
     <div id="about" className="container mt-9">
       <div className="row">
         <div className="col">
           <div className="who__title position-relative mb-8">
-            <h1 className="text-center">Who is Kook</h1>
+            <h1 className="text-center">{t('who_is_kook')}</h1>
             <span className="who__question-mark position-absolute">?</span>
           </div>
         </div>
@@ -42,12 +45,10 @@ const WhoIsKook = () => {
             <div className="who__slides who__slides-bg mt-5 position-absolute"></div>
           </div>
         </div>
-        <div className="col-12 col-md-6">
-          I am too shy to talk to others but I can write outstanding fictions, I am night blindness but I can see
-          something supernatural, I am sensitive because I am a mutant kitty, I look timid because I can foretell some
-          disasters, I am not good at Maths but I can always win a bet, I am introverted but I can talk to animals, I
-          seem normal but I was left-behind by the aliens on the earth， … …
-        </div>
+        <div
+          className="col-12 col-md-6 text-center who__intro"
+          dangerouslySetInnerHTML={{ __html: t('who_is_kook_intro') }}
+        />
       </div>
       <div className="row">
         <div className="col-12 col-md-6 order-md-2">

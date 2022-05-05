@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useI18n } from 'react-simple-i18n';
 import './main.scss';
 
 const Main = () => {
+  const { t } = useI18n();
   const [handStyle, setHandStyle] = useState({});
   const handleMouseEnterMint = () => {
     setHandStyle({
@@ -30,13 +32,11 @@ const Main = () => {
           <div className="position-relative">
             <div className="main__yellowboard-content">
               <h1>KOOK</h1>
-              <p>A collection of</p>
+              <p>{t('a_collection_of')}</p>
               <p>
-                <span className="main__yellowboard-content-count">10,000</span> kooks
+                <span className="main__yellowboard-content-count">10,000</span> {t('kooks')}
               </p>
-              <p>
-                Look for fellows <br /> to make a unique metaverse
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t('main_intro') }}></p>
             </div>
             <img className="main__yellowboard top-0 w-100 position-absolute" src="yellowboard.png" alt="Yellow Board" />
             <img

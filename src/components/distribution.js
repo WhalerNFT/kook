@@ -1,7 +1,10 @@
 import React from 'react';
+import { useI18n } from 'react-simple-i18n';
 import './distribution.scss';
 
 const Distribution = () => {
+  const { t } = useI18n();
+
   return (
     <div className="container mt-7">
       <div className="row">

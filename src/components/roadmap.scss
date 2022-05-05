@@ -8,11 +8,25 @@
 
 .roadmap__text-container {
   width: 90%;
+
+  div {
+    flex: 1 1 auto;
+  }
 }
 
 .roadmap__text {
+  position: relative;
   margin-top: 90px;
   height: 95px;
+
+  span {
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .roadmap__line {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useI18n } from 'react-simple-i18n';
 import './team.scss';
 
 const members = [
@@ -55,6 +56,7 @@ const MemberMobile = ({ name, role, image, isReverse }) => {
 };
 
 const Team = () => {
+  const { t } = useI18n();
   return (
     <div id="team" className="container">
       <h1 className="text-center my-7">Team</h1>
