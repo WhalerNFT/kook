@@ -56,7 +56,7 @@ const MemberMobile = ({ name, role, image, isReverse }) => {
 
 const Team = () => {
   return (
-    <div className="container">
+    <div id="team" className="container">
       <h1 className="text-center my-7">Team</h1>
       <div className="row d-none d-lg-block">
         <div className="col">

@@ -5,3 +5,33 @@
 .nav__social {
   width: 36px;
 }
+
+.nav__items {
+  a {
+    text-decoration: none;
+    color: unset;
+    font-weight: 600;
+
+    &:hover {
+      opacity: .85;
+    }
+
+    &:active {
+      opacity: .7;
+    }
+  }
+}
+
+.nav__language {
+  padding: 4px 16px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    background-color: #c9c9c9;
+  }
+}

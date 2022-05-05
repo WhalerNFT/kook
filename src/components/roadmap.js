@@ -3,7 +3,7 @@ import './roadmap.scss';
 
 const Roadmap = () => {
   return (
-    <div className="container">
+    <div id="roadmap" className="container">
       <div className="row">
         <div className="col">
           <h1 className="my-7 text-center">Roadmap</h1>

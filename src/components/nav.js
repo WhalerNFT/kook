@@ -3,7 +3,17 @@ import { useI18n } from 'react-simple-i18n';
 import './nav.scss';
 
 const Nav = () => {
-  const { t } = useI18n();
+  const { t, i18n } = useI18n();
+
+  const handleChangeLanguage = () => {
+    const currentLang = i18n.getLang();
+    console.log(currentLang);
+    if (currentLang === 'en_US') {
+      i18n.setLang('zh_CN');
+    } else {
+      i18n.setLang('en_US');
+    }
+  };
 
   return (
     <div className="container my-7">
@@ -12,10 +22,16 @@ const Nav = () => {
       </div>
       <div className="row my-4">
         <div className="col-xs-12 col-md-6 offset-md-3 mb-3">
-          <div className="d-flex justify-content-around align-items-center h-100">
-            <div>{t('about')}</div>
-            <div>{t('roadmap')}</div>
-            <div>{t('team')}</div>
+          <div className="nav__items d-flex justify-content-around align-items-center h-100">
+            <div>
+              <a href="#about">{t('about')}</a>
+            </div>
+            <div>
+              <a href="#roadmap">{t('roadmap')}</a>
+            </div>
+            <div>
+              <a href="#team">{t('team')}</a>
+            </div>
           </div>
         </div>
         <div className="col-6 offset-6 col-md-3 offset-md-0">
@@ -26,7 +42,9 @@ const Nav = () => {
             <div>
               <img className="nav__social" src="discord.png" alt="Discord" />
             </div>
-            <div>中文</div>
+            <div className="nav__language" tabIndex={0} role="button" onClick={handleChangeLanguage}>
+              {t('language')}
+            </div>
           </div>
         </div>
       </div>

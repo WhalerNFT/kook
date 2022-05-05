@@ -13,7 +13,7 @@ const slideSettings = {
 
 const WhoIsKook = () => {
   return (
-    <div className="container mt-9">
+    <div id="about" className="container mt-9">
       <div className="row">
         <div className="col">
           <div className="who__title position-relative mb-8">
@@ -71,16 +71,16 @@ const WhoIsKook = () => {
         <div className="kook-img-container">
           <img className="kook-img" src="kook2.png" alt="kook2" />
         </div>
-        <div className="kook-img-container">
+        <div className="kook-img-container d-none d-lg-block">
           <img className="kook-img" src="kook3.png" alt="kook3" />
         </div>
         <div className="kook-img-container">
           <img className="kook-img" src="kook4.png" alt="kook4" />
         </div>
-        <div className="kook-img-container">
+        <div className="kook-img-container d-none d-lg-block">
           <img className="kook-img" src="kook5.png" alt="kook5" />
         </div>
-        <div className="kook-img-container">
+        <div className="kook-img-container d-none d-md-block">
           <img className="kook-img" src="kook6.png" alt="kook6" />
         </div>
         <div className="kook-img-container">
@@ -90,7 +90,7 @@ const WhoIsKook = () => {
       <div>
         <img className="kook-line" src="line.png" alt="line" />
       </div>
-      <h1 className="kooks-all">WE ARE ALL KOOKS!</h1>
+      <h1 className="kooks-all text-center">WE ARE ALL KOOKS!</h1>
       <div>
         <img className="kook-line" src="line.png" alt="line" />
       </div>
