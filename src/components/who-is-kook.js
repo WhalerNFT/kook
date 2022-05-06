@@ -16,7 +16,7 @@ const WhoIsKook = () => {
   const { t } = useI18n();
 
   return (
-    <div id="about" className="container mt-9">
+    <div id="about" className="container">
       <div className="row">
         <div className="col">
           <div className="who__title position-relative mb-8">
@@ -58,35 +58,16 @@ const WhoIsKook = () => {
         </div>
         <div className="col-12 col-md-6 order-md-1">
           <h4 className="text-center mt-8">Vision and Value</h4>
-          <p>
-            We live in a physical world but we see another self in different ones. We switch in between back-and-forth
-            as they blend together. We are ready for all the challenges to step out of the comfort zone and status quo.
+          <p className="lh-lg text-center">
+            We live in a physical world but we see another self in different ones. <br />
+            We switch in between back-and-forth as they blend together. <br />
+            We are ready for all the challenges to step out of the comfort zone and status quo. <br />
             We are strong enough while we united as a whole and then make an impact on Web 3 era.
           </p>
         </div>
       </div>
       <div className="kooks-container d-flex justify-content-between mt-8">
-        <div className="kook-img-container">
-          <img className="kook-img" src="kook1.png" alt="kook1" />
-        </div>
-        <div className="kook-img-container">
-          <img className="kook-img" src="kook2.png" alt="kook2" />
-        </div>
-        <div className="kook-img-container d-none d-lg-block">
-          <img className="kook-img" src="kook3.png" alt="kook3" />
-        </div>
-        <div className="kook-img-container">
-          <img className="kook-img" src="kook4.png" alt="kook4" />
-        </div>
-        <div className="kook-img-container d-none d-lg-block">
-          <img className="kook-img" src="kook5.png" alt="kook5" />
-        </div>
-        <div className="kook-img-container d-none d-md-block">
-          <img className="kook-img" src="kook6.png" alt="kook6" />
-        </div>
-        <div className="kook-img-container">
-          <img className="kook-img" src="kook7.png" alt="kook7" />
-        </div>
+        <img src="0506.png" alt="kooks" />
       </div>
       <div>
         <img className="kook-line" src="line.png" alt="line" />

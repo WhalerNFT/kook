@@ -7,11 +7,11 @@ const Main = () => {
   const [handStyle, setHandStyle] = useState({});
   const handleMouseEnterMint = () => {
     setHandStyle({
-      top: '26%',
+      top: '29.5%',
     });
     setTimeout(() => {
       setHandStyle({
-        top: '28%',
+        top: '30.5%',
       });
     }, 200);
   };
@@ -31,7 +31,7 @@ const Main = () => {
           </div>
           <div className="position-relative">
             <div className="main__yellowboard-content">
-              <h1>KOOK</h1>
+              <h1 className="fw-light">KOOK</h1>
               <p>{t('a_collection_of')}</p>
               <p>
                 <span className="main__yellowboard-content-count">10,000</span> {t('kooks')}

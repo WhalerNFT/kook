@@ -59,7 +59,7 @@ const Team = () => {
   const { t } = useI18n();
   return (
     <div id="team" className="container">
-      <h1 className="text-center my-7">Team</h1>
+      <h1 className="text-center mt-9 mb-3">TEAM</h1>
       <div className="row d-none d-lg-block">
         <div className="col">
           <div className="position-relative mb-3">

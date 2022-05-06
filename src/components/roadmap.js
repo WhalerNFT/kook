@@ -9,7 +9,7 @@ const Roadmap = () => {
     <div id="roadmap" className="container">
       <div className="row">
         <div className="col">
-          <h1 className="my-7 text-center">Roadmap</h1>
+          <h1 className="mt-9 mb-7 text-center">ROAD MAP</h1>
         </div>
       </div>
       <div className="row d-none d-lg-block">
@@ -25,7 +25,7 @@ const Roadmap = () => {
                 </div>
                 <p className="mt-2">Chapter 1</p>
               </div>
-              <div className="text-center flex-1">
+              <div className="text-center">
                 <p className="roadmap__text">
                   <span>{t('chapter2_content')}</span>
                 </p>

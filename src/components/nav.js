@@ -7,7 +7,6 @@ const Nav = () => {
 
   const handleChangeLanguage = () => {
     const currentLang = i18n.getLang();
-    console.log(currentLang);
     if (currentLang === 'en_US') {
       i18n.setLang('zh_CN');
     } else {

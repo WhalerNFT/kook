@@ -9,7 +9,7 @@ const Distribution = () => {
     <div className="container mt-7">
       <div className="row">
         <div className="col">
-          <h1 className="text-center mb-7">Distribution</h1>
+          <h1 className="text-center mb-7">DISTRIBUTION</h1>
           <div className="distribution__chart-container d-flex justify-content-center">
             <div className="distribution__chart-wrapper position-relative">
               <img className="distribution__chart" src="distribution.png" alt="distribution" />

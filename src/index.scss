@@ -42,7 +42,7 @@ $main-font-color: #737373;
 $general-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 html, body {
-  min-width: 320px;
+  min-width: 375px;
   overflow-x: hidden;
 }
 
@@ -66,12 +66,20 @@ code {
     monospace;
 }
 
+.nav__logo {
+  width: 270px;
+
+  @include media-breakpoint-down(lg) {
+    width: 180px;
+  }
+}
+
 .main__head-img {
   width: 60%;
 }
 
 .main__hands-glasses-img {
-  top: 28%;
+  top: 30.5%;
 }
 
 .main__yellowboard {
@@ -83,16 +91,15 @@ code {
 
   h1 {
     font-size: 110px;
-    font-weight: 600;
   }
 
   p {
     font-size: 40px;
+    margin-bottom: 0;
   }
 
   .main__yellowboard-content-count {
     font-size: 60px;
-    font-weight: 600;
   }
 
   @include media-breakpoint-down(xl) {
@@ -156,22 +163,24 @@ code {
 }
 
 .kooks-all {
-  font-size: 123px;
+  font-size: 121px;
+  font-weight: 600;
+  margin-bottom: 0;
 
   @include media-breakpoint-down(xxl) {
-    font-size: 106px;
+    font-size: 104px;
   }
 
   @include media-breakpoint-down(xl) {
-    font-size: 89px;
+    font-size: 87px;
   }
 
   @include media-breakpoint-down(lg) {
-    font-size: 65px;
+    font-size: 63px;
   }
 
   @include media-breakpoint-down(md) {
-    font-size: 48px;
+    font-size: 46px;
   }
 
   @include media-breakpoint-down(sm) {
@@ -209,7 +218,7 @@ code {
   }
 
   @include media-breakpoint-down(lg) {
-    right: 10%;
+    right: 9%;
     top: 30%;
   }
 
@@ -350,14 +359,22 @@ code {
   }
 
   @include media-breakpoint-down(md) {
-    top: 30%;
+    top: 31%;
     width: 160px;
 
   }
 
   @include media-breakpoint-down(sm) {
-    top: 26%;
-    width: 28vw;
+    top: 32%;
+    width: 27vw;
+
+    h4 {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 12px;
+    }
   }
 }
 
@@ -373,5 +390,14 @@ code {
 
   .team__member-info {
     left: 8%;
+  }
+}
+
+.footer__logo {
+  width: 200px;
+  margin-top: 300px;
+
+  @include media-breakpoint-down(lg) {
+    margin-top: 100px;
   }
 }

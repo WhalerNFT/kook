@@ -1,7 +1,3 @@
-.nav__logo {
-  width: 300px;
-}
-
 .nav__social {
   width: 36px;
 }
@@ -10,7 +6,8 @@
   a {
     text-decoration: none;
     color: unset;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 22px;
 
     &:hover {
       opacity: .85;
