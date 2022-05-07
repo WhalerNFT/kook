@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="row mt-5">
           <div className="col text-center">
-            <h5>@KOOK 2022</h5>
+            <h6>@KOOK 2022</h6>
           </div>
         </div>
       </div>

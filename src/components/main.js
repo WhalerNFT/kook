@@ -7,11 +7,11 @@ const Main = () => {
   const [handStyle, setHandStyle] = useState({});
   const handleMouseEnterMint = () => {
     setHandStyle({
-      top: '30.5%',
+      top: '31%',
     });
     setTimeout(() => {
       setHandStyle({
-        top: '32.5%',
+        top: '33%',
       });
     }, 200);
   };
@@ -21,7 +21,7 @@ const Main = () => {
       <div className="row">
         <div className="col">
           <div className="main__head d-flex justify-content-center position-relative">
-            <img className="main__head-img" src="head.png" alt="Head" />
+            <img className="main__head-img position-relative" src="head.png" alt="Head" />
             <img
               className="main__hands-glasses-img position-absolute w-100"
               style={handStyle}
