@@ -43,6 +43,7 @@ const WhoIsKook = () => {
               </div>
             </Slider>
             <div className="who__slides who__slides-bg mt-5 position-absolute"></div>
+            <img className="who__tape position-absolute" src="tape.png" alt="tape" />
           </div>
         </div>
         <div

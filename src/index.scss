@@ -75,16 +75,40 @@ code {
 }
 
 .main__head-img {
-  width: 60%;
+  width: 97%;
 }
 
 .main__hands-glasses-img {
-  top: 30.5%;
+  top: 32.5%;;
 }
 
 .main__yellowboard {
   z-index: -1;
 }
+
+.main__mini-logo {
+  bottom: 14%;
+  right: 8%;
+  width: 100px;
+
+  @include media-breakpoint-down(xl) {
+    width: 85px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    width: 70px;
+  }
+
+  @include media-breakpoint-down(md) {
+    width: 60px;
+  }
+
+
+  @include media-breakpoint-down(sm) {
+    width: 50px;
+  }
+}
+
 
 .main__yellowboard-content {
   padding: 9% 15%;
@@ -118,7 +142,7 @@ code {
 
   @include media-breakpoint-down(lg) {
     h1 {
-      font-size: 35px;
+      font-size: 55px;
     }
   
     p {
@@ -126,13 +150,13 @@ code {
     }
 
     .main__yellowboard-content-count {
-      font-size: 25px;
+      font-size: 45px;
     }
   }
 
   @include media-breakpoint-down(md) {
     h1 {
-      font-size: 30px;
+      font-size: 45px;
     }
   
     p {
@@ -140,23 +164,24 @@ code {
     }
 
     .main__yellowboard-content-count {
-      font-size: 22px;
+      font-size: 32px;
     }
   }
 
 
   @include media-breakpoint-down(sm) {
     h1 {
-      font-size: 22px;
+      font-size: 32px;
     }
   
     p {
       font-size: 16px;
       margin-bottom: 0;
+      line-height: 1.2;
     }
 
     .main__yellowboard-content-count {
-      font-size: 22px;
+      font-size: 32px;
     }
   }
   
