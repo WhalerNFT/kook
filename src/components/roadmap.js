@@ -9,7 +9,7 @@ const Roadmap = () => {
     <div id="roadmap" className="container">
       <div className="row">
         <div className="col">
-          <h1 className="mt-9 mb-7 text-center">ROAD MAP</h1>
+          <h1 className="mt-9 mb-7 text-center">{t('roadmap_title')}</h1>
         </div>
       </div>
       <div className="row d-none d-lg-block">

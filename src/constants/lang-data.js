@@ -18,16 +18,27 @@ const langData = {
     …<br />
     I am a KOOK and I am just unique.<br />
     `,
-    vision_and_value: '',
+    vision_and_value: 'Vision & Value',
+    vision_and_value_content: `We live in a physical world<br />
+      but we see another self in different ones.<br />
+      We switch back-and-forth as they blend together.<br />
+      There must be a unique me.<br />
+      We are ready for all the challenges to jump out of the comfort zone and status quo.<br />
+      We are strong enough while we united as a whole and then make an impact on Web 3 era.`,
+    distribution_title: 'DISTRIBUTION',
+    public_sale: 'PUBLIC SALE',
+    whitelist_community: 'WHILELIST & COMMUNITIES',
+    team_artist: 'TEAM AND ARTIST',
+    roadmap_title: 'ROAD MAP',
     chapter1: 'Chapter 1',
     chapter2: 'Chapter 2',
     chapter3: 'Chapter 3',
     chapter4: 'Chapter 4',
-    chapter1_content: 'OG Kooks will get their unique customized profile photoes.',
-    chapter2_content: '10k Kooks gather and telling their kooky and unique stories.',
-    chapter3_content: "Kooks'Cartoon and Reality Show popped up online.",
-    chapter4_content: 'Distribution of Kooks. publications including Concept Design, Graphic Novel and so on.',
-    team_title: 'Team',
+    chapter1_content: '3,333 Kook PFP for sale.',
+    chapter2_content: 'Initiate HODL customize product airdrop while launching Kook brand product off-line sales.',
+    chapter3_content: 'Collect Kook stories from HODL, and invite well-known author to create Kook comic book.',
+    chapter4_content: 'Create Kook Land for  on-line and off-line plan, and social space and in-store experience.',
+    team_title: 'TEAM',
     member1: 'BigYear (Kook)',
     member2: 'Eric',
     member3: 'Jamie',
@@ -59,25 +70,41 @@ const langData = {
     我是个怪人是因为我真的与众不同。<br />
     
     `,
+    vision_and_value: '与众不同',
+    vision_and_value_content: `生活在物理世界的我们<br />
+    看起来平平无奇，<br />
+    只有我们自己知道<br />
+    内心深处还有一个与众不同的自己。<br />
+    我们反复在两个我之间纠结和切换，<br />
+    也时刻做好准备做出更加跟随内心的改变。<br />
+    是时候了，<br />
+    作为与众不同的人，<br />
+    我们已经做好准备一起建设非凡的Kook世界
+    `,
+    distribution_title: '分配比例',
+    public_sale: '公开售卖',
+    whitelist_community: '社区和白名单',
+    team_artist: '团队和艺术家',
+    roadmap_title: '计划',
     chapter1: 'Chapter 1',
     chapter2: 'Chapter 1',
     chapter3: 'Chapter 1',
     chapter4: 'Chapter 1',
-    chapter1_content: '早期的Kook们可以获得自己专属的定制头像。',
-    chapter2_content: '10k Kook们集结并且讲出他们每一个人特别的故事。',
-    chapter3_content: '关于Kook们的卡通和真人秀上线发行。',
-    chapter4_content: 'Kook的设定集、漫画集和衍生品等出版物正式发行。',
+    chapter1_content: '完成3333个Kook头像售卖。',
+    chapter2_content: '开启HODL柔性定制产品空投。同时Kook潮牌开启销售、联名及线下快闪活动。',
+    chapter3_content: '在HODL中征集Kook Story，并邀请知名作家或编剧共同创作Kook专属漫画书或动漫。',
+    chapter4_content: '开启打造Kook Land计划。创造属于Kook专属的社交空间和专属体验。',
     team_title: '团队',
     member1: 'BigYear (Kook)',
     member2: 'Eric',
     member3: 'Jamie',
     member4: 'Annie',
     member5: 'Master Cui',
-    member1_role: 'Artist',
-    member2_role: 'Strategy & Operation',
-    member3_role: 'Marketing & Product',
-    member4_role: 'Community & Social media',
-    member5_role: 'Web3 & Smart Contract',
+    member1_role: '艺术家',
+    member2_role: '策划 & 运营',
+    member3_role: '市场 & 产品',
+    member4_role: '社区 & 社交媒体',
+    member5_role: 'Web3 & 智能合约',
   },
 };
 

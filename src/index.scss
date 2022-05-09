@@ -252,27 +252,27 @@ code {
     top: 30%;
   }
 
-  @include media-breakpoint-down(sm) {
-    
+  &.distrubution__desc--cn-offset {
+    right: 18%;
   }
 }
 
 .distrubution__line {
-  margin-bottom: 16%;
+  line-height: 40px;
 
   @include media-breakpoint-down(xxl) {
     font-size: 14px;
-    margin-bottom: 16%;
+    line-height: 34px;
   }
 
   @include media-breakpoint-down(xl) {
     font-size: 13px;
-    margin-bottom: 13%;
+    line-height: 25px;
   }
 
   @include media-breakpoint-down(lg) {
     font-size: 11px;
-    margin-bottom: 9%;
+    line-height: 15px;
   }
 
   @include media-breakpoint-down(md) {

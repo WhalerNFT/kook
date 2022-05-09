@@ -58,21 +58,14 @@ const WhoIsKook = () => {
           </div>
         </div>
         <div className="col-12 col-md-6 order-md-1">
-          <h4 className="text-center mt-8">Vision and Value</h4>
-          <p className="lh-lg text-center">
-            We live in a physical world but we see another self in different ones. <br />
-            We switch in between back-and-forth as they blend together. <br />
-            We are ready for all the challenges to step out of the comfort zone and status quo. <br />
-            We are strong enough while we united as a whole and then make an impact on Web 3 era.
-          </p>
+          <h4 className="text-center mt-8">{t('vision_and_value')}</h4>
+          <p className="lh-lg text-center" dangerouslySetInnerHTML={{ __html: t('vision_and_value_content') }} />
         </div>
       </div>
       <div className="kooks-container d-flex justify-content-between mt-8">
         <img src="0506.png" alt="kooks" />
       </div>
-      <div>
-        <img className="kook-line" src="line.png" alt="line" />
-      </div>
+      <img className="kook-line" src="line.png" alt="line" />
       <h1 className="kooks-all text-center">WE ARE ALL KOOKS!</h1>
       <div>
         <img className="kook-line" src="line.png" alt="line" />

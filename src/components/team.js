@@ -4,52 +4,52 @@ import './team.scss';
 
 const members = [
   {
-    name: 'BigYear (Kook)',
-    role: 'Artist',
+    name: 'member1',
+    role: 'member1_role',
     image: 'member1.png',
   },
   {
-    name: 'Eric',
-    role: 'Strategy & Operation',
+    name: 'member2',
+    role: 'member2_role',
     image: 'member2.png',
     isReverse: true,
   },
   {
-    name: 'Jamie',
-    role: 'Marketing & Product',
+    name: 'member3',
+    role: 'member3_role',
     image: 'member3.png',
   },
   {
-    name: 'Annie',
-    role: 'Community & Social media',
+    name: 'member4',
+    role: 'member4_role',
     image: 'member4.png',
     isReverse: true,
   },
   {
-    name: 'Master Cui',
-    role: 'Web3 & Smart Contract',
+    name: 'member5',
+    role: 'member5_role',
     image: 'member5.png',
   },
 ];
 
-const Member = ({ name, role, image }) => {
+const Member = ({ name, role, image, t }) => {
   return (
     <div className="text-center mt-5">
-      <img className="team__image mb-3" src={image} alt={name} />
-      <h4>{name}</h4>
-      <p>{role}</p>
+      <img className="team__image mb-3" src={image} alt={t(name)} />
+      <h4>{t(name)}</h4>
+      <p>{t(role)}</p>
     </div>
   );
 };
 
-const MemberMobile = ({ name, role, image, isReverse }) => {
+const MemberMobile = ({ name, role, image, isReverse, t }) => {
   return (
     <div className={`position-relative mt-5 ${isReverse ? 'team__image-mobile-reserve' : ''}`}>
       <img className="team__glasses-bg" src="member-glasses.png" alt="member glasses" />
-      <img className={'team__image-mobile position-absolute mb-3'} src={image} alt={name} />
+      <img className={'team__image-mobile position-absolute mb-3'} src={image} alt={t(name)} />
       <div className="team__member-info position-absolute text-center">
-        <h4>{name}</h4>
-        <p>{role}</p>
+        <h4>{t(name)}</h4>
+        <p>{t(role)}</p>
       </div>
     </div>
   );
@@ -59,13 +59,13 @@ const Team = () => {
   const { t } = useI18n();
   return (
     <div id="team" className="container">
-      <h1 className="text-center mt-9 mb-3">TEAM</h1>
+      <h1 className="text-center mt-9 mb-3">{t('team_title')}</h1>
       <div className="row d-none d-lg-block">
         <div className="col">
           <div className="position-relative mb-3">
             <div className="team__container d-flex justify-content-evenly">
               {members.map((props) => (
-                <Member key={props.image} {...props} />
+                <Member key={props.image} {...props} t={t} />
               ))}
             </div>
             <img className="team__bus top-0 position-absolute" src="bus.png" alt="" />
@@ -75,7 +75,7 @@ const Team = () => {
       <div className="row d-lg-none">
         <div className="col">
           {members.map((props) => (
-            <MemberMobile key={props.image} {...props} />
+            <MemberMobile key={props.image} {...props} t={t} />
           ))}
         </div>
       </div>
