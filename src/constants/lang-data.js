@@ -8,15 +8,15 @@ const langData = {
     kooks: 'kooks',
     main_intro: 'Look for fellows<br />to make a unique metaverse',
     who_is_kook: 'Who is Kook',
-    who_is_kook_intro: `I am too shy to talk to others but I can write outstanding fictions,<br />
-    I am night blindness but I can see something supernatural,<br />
-    I am sensitive because I am a mutant kitty,<br />
-    I look timid because I can foretell some disasters,<br />
-    I am not good at Maths but I can always win a bet,<br />
-    I am introverted but I can talk to animals,<br />
-    I seem normal but I was left-behind by the aliens on the earth，<br />
+    who_is_kook_intro: `I am too shy to talk to others but I can write outstanding fictions.<br />
+    I am night blindness but I can see something supernatural.<br />
+    I am sensitive because I am a mutated kitty.<br />
+    I look timid because I can foretell some disasters.<br />
+    I am not good at Math but I can always win a bet.<br />
+    I am introverted but I can talk to animals.<br />
+    I seem normal but I was left-behind by the aliens on the earth,<br />
     …<br />
-    I am a KOOK and I am just unique.<br />
+    I am a KOOK.
     `,
     vision_and_value: 'Vision & Value',
     vision_and_value_content: `We live in a physical world<br />
@@ -26,6 +26,8 @@ const langData = {
       We are ready for all the challenges to jump out of the comfort zone and status quo.<br />
       We are strong enough while we united as a whole and then make an impact on Web 3 era.`,
     distribution_title: 'DISTRIBUTION',
+    distribution__article:
+      '66 legendary Kooks were chosen by the community, 50 rare Kooks of artist special edition, and 30 customized special edition Kooks for partners who made significant contributions to the project. Distribution following:',
     public_sale: 'PUBLIC SALE',
     whitelist_community: 'WHILELIST & COMMUNITIES',
     team_artist: 'TEAM AND ARTIST',
@@ -35,9 +37,10 @@ const langData = {
     chapter3: 'Chapter 3',
     chapter4: 'Chapter 4',
     chapter1_content: '3,333 Kook PFP for sale.',
-    chapter2_content: 'Initiate HODL customize product airdrop while launching Kook brand product off-line sales.',
-    chapter3_content: 'Collect Kook stories from HODL, and invite well-known author to create Kook comic book.',
-    chapter4_content: 'Create Kook Land for  on-line and off-line plan, and social space and in-store experience.',
+    chapter2_content: 'Initiate HODL customize product airdrop while launching Kook brand product offline events.',
+    chapter3_content:
+      'Collect Kook stories from HODL and invite well-known authors or editors to create Kook comic book.',
+    chapter4_content: 'Create Kook Land plan, social space, and in-store experience.',
     team_title: 'TEAM',
     member1: 'BigYear (Kook)',
     member2: 'Eric',
@@ -82,6 +85,8 @@ const langData = {
     我们已经做好准备一起建设非凡的Kook世界
     `,
     distribution_title: '分配比例',
+    distribution__article:
+      '数字世界的Kook首次以头像方式发布，接近1000个不同元素组成3,333个独一无二的头像。其中包括66个由社区票选的殿堂级Kook、50个艺术家特别版的稀有Kook和30个为项目做出重大贡献的合作伙伴定制的特别版Kook。分配比例如下：',
     public_sale: '公开售卖',
     whitelist_community: '社区和白名单',
     team_artist: '团队和艺术家',

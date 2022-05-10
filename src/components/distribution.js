@@ -10,6 +10,7 @@ const Distribution = () => {
       <div className="row">
         <div className="col">
           <h1 className="text-center mb-7">{t('distribution_title')}</h1>
+          <p className="mb-7 distribution__article">{t('distribution__article')}</p>
           <div className="distribution__chart-container d-flex justify-content-center">
             <div className="distribution__chart-wrapper position-relative">
               <img className="distribution__chart" src="distribution.png" alt="distribution" />

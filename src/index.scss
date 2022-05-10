@@ -229,6 +229,15 @@ code {
   }
 }
 
+.distribution__article {
+  width: 80%;
+  margin: 0 auto;
+
+  @include media-breakpoint-down(lg) {
+    width: 100%;
+  }
+}
+
 .distrubution__desc {
   right: 12%;
   top: 30%;
