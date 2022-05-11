@@ -34,7 +34,7 @@ const Main = () => {
               <h1 className="fw-bold">KOOK</h1>
               <p>{t('a_collection_of')}</p>
               <p>
-                <span className="main__yellowboard-content-count fw-bold">10,000</span> {t('kooks')}
+                <span className="main__yellowboard-content-count fw-bold">3,333</span> {t('kooks')}
               </p>
               <p dangerouslySetInnerHTML={{ __html: t('main_intro') }}></p>
             </div>
