@@ -32,15 +32,30 @@ const langData = {
     whitelist_community: 'WHILELIST & COMMUNITIES',
     team_artist: 'TEAM AND ARTIST',
     roadmap_title: 'ROAD MAP',
-    chapter1: 'Chapter 1',
-    chapter2: 'Chapter 2',
-    chapter3: 'Chapter 3',
-    chapter4: 'Chapter 4',
-    chapter1_content: '3,333 Kook PFP for sale.',
-    chapter2_content: 'Initiate HODL customize product airdrop while launching Kook brand product offline events.',
-    chapter3_content:
-      'Collect Kook stories from HODL and invite well-known authors or editors to create Kook comic book.',
-    chapter4_content: 'Create Kook Land plan, social space, and in-store experience.',
+    chapter1: 'Phase 1',
+    chapter2: 'Phase 2',
+    chapter3: 'Phase 3',
+    chapter1_content: `
+    <p>Release 3,333 Kook and try to sell them all at once.</p>
+
+    <p>Charitable Donations: all money raised for the five legendary Kook will be Donated to the autism foundation. </p>
+
+    <p>Customized Kook: Create customized Kook with artist to emphasize the Kook's spirit. </p>
+    `,
+    chapter2_content: `
+    <p>Kook Spiritual Crown: Individual empowerment is a visible plus one that is driving a project vivid with lives.  Collect and storytelling Kooks from HODL, and combine these stories with the well-known author to create the Kook comic book. By holding Kook, holders could have the chance to unite all kinds of Kook and been published and unlock the derivative product gifts and discounts. Those holders whose stories have been chosen and published, will gain our special pass, “crown,” along with it.</p>
+
+    <p>Kook collection, comic book, or derivative product,  like recycled-material manufactured shirt, will be launched. All Kook derivative product will use recyclable material to help and support sustainable system. </p>
+
+    <p>Safe Mint: We will initiate safe-mint to minimize hacking in the NFT community. Meanwhile, we will use the treasury to compensate those victims lost their NFTs with the related case inquiry. </p>
+    `,
+    chapter3_content: `
+    <p>Metaverse: By holding Kook, holders have perk and early access to our Kook Land.  </p>
+
+    <p>Coffee: Collaborate with local coffee shops, holders can have their free coffee in these café shop. </p>
+    
+    <p>Exhibition: Co-hold the exhibition with donated foundation and the artists.</p>
+    `,
     team_title: 'TEAM',
     member1: 'BigYear (Kook)',
     member2: 'Eric',
@@ -91,14 +106,21 @@ const langData = {
     whitelist_community: '社区和白名单',
     team_artist: '团队和艺术家',
     roadmap_title: '计划',
-    chapter1: 'Chapter 1',
-    chapter2: 'Chapter 1',
-    chapter3: 'Chapter 1',
-    chapter4: 'Chapter 1',
-    chapter1_content: '完成3333个Kook头像售卖。',
-    chapter2_content: '开启HODL柔性定制产品空投。同时Kook潮牌开启销售、联名及线下快闪活动。',
-    chapter3_content: '在HODL中征集Kook Story，并邀请知名作家或编剧共同创作Kook专属漫画书或动漫。',
-    chapter4_content: '开启打造Kook Land计划。创造属于Kook专属的社交空间和专属体验。',
+    chapter1: '阶段 1',
+    chapter2: '阶段 2',
+    chapter3: '阶段 3',
+    chapter1_content: `
+    <p>3333个K00k头像售卖。</p>
+    <p>公售结束后开启慈善拍卖；并将拍卖收入全部捐赠给基金会。</p>
+    <p>气基金会共同进行联名艺术展。</p>
+    `,
+    chapter2_content:
+      '<p>开启HODL柔性定制产品空投。同时Kook潮牌开启销售、联名及线下快闪活动。所有收益20%空投HODLS。</p>',
+    chapter3_content: `
+    <p>在HODL中征集kook Story， 并邀请知名作家或编剧共同创作Kook专属漫画书或动漫。</p>
+    <p>Kook设定集、漫画集或衍生动漫上线。传播Kook精神内核，版税收益20%空投HODLS。</p>
+    `,
+    chapter4_content: '<p>开启打造Kook Land计划。创造属于Kook专属的社交空间和专属体验。</p>',
     team_title: '团队',
     member1: 'BigYear (Kook)',
     member2: 'Eric',

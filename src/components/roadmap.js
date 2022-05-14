@@ -12,60 +12,33 @@ const Roadmap = () => {
           <h1 className="mt-9 mb-7 text-center">{t('roadmap_title')}</h1>
         </div>
       </div>
-      <div className="row d-none d-lg-block">
+      <div className="row">
         <div className="col">
-          <div className="roadmap__container position-relative  ">
-            <div className="roadmap__text-container d-flex">
-              <div className="text-center">
-                <p className="roadmap__text">
-                  <span>{t('chapter1_content')}</span>
-                </p>
-                <div>
-                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
-                </div>
-                <p className="mt-2">Chapter 1</p>
+          <div className="roadmap__container position-relative d-flex flex-column align-items-center">
+            <div className="roadmap__top">
+              <img className="roadmap__bg" src="roadmap-top.png" alt="" />
+            </div>
+            <div className="roadmap__mid d-flex align-items-center flex-column">
+              <img className="roadmap__img" src="序号1.png" alt="" />
+              <div className="roadmap__content mt-4 mb-7">
+                <h3 className="text-center">{t('chapter1')}</h3>
+                <p dangerouslySetInnerHTML={{ __html: t('chapter1_content') }} />
               </div>
-              <div className="text-center">
-                <p className="roadmap__text">
-                  <span>{t('chapter2_content')}</span>
-                </p>
-                <div>
-                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
-                </div>
-                <p className="mt-2">Chapter 2</p>
+              <img className="roadmap__img" src="序号2.png" alt="" />
+              <div className="roadmap__content mt-4 mb-7">
+                <h3 className="text-center">{t('chapter2')}</h3>
+                <p dangerouslySetInnerHTML={{ __html: t('chapter2_content') }} />
               </div>
-              <div className="text-center">
-                <p className="roadmap__text">
-                  <span>{t('chapter3_content')}</span>
-                </p>
-                <div>
-                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
-                </div>
-                <p className="mt-2">Chapter 3</p>
-              </div>
-              <div className="text-center">
-                <p className="roadmap__text">
-                  <span>{t('chapter4_content')}</span>
-                </p>
-                <div>
-                  <img className="roadmap__glasses-small" src="glasses-small.png" alt="small glasses" />
-                </div>
-                <p className="mt-2">Chapter 4</p>
+              <img className="roadmap__img" src="序号3.png" alt="" />
+              <div className="roadmap__content mt-4 mb-7">
+                <h3 className="text-center">{t('chapter3')}</h3>
+                <p dangerouslySetInnerHTML={{ __html: t('chapter3_content') }} />
               </div>
             </div>
-
-            <img src="roll.png" className="roadmap__roll top-0 w-100 position-absolute" alt="roll" />
-            <img src="black-line.png" className="roadmap__line position-absolute" alt="roll" />
+            <div className="roadmap__bottom">
+              <img className="roadmap__bg" src="roadmap-bottom.png" alt="" />
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="row d-lg-none">
-        <div className="col position-relative">
-          <img className="roadmap__mobile-bg" src="mobile-roll.jpg" alt="" />
-          <div className="roadmap__chapter roadmap__c1 position-absolute">{t('chapter1_content')}</div>
-          <div className="roadmap__chapter roadmap__c2 position-absolute">{t('chapter2_content')}</div>
-          <div className="roadmap__chapter roadmap__c3 position-absolute">{t('chapter3_content')}</div>
-          <div className="roadmap__chapter roadmap__c4 position-absolute">{t('chapter4_content')}</div>
         </div>
       </div>
     </div>
